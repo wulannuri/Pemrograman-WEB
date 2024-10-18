@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Care App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0e6d2;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .app-container {
+            background-color: #fff1e6;
+            border-radius: 20px;
+            padding: 20px;
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .logo img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+        .icons {
+            display: flex;
+            gap: 10px;
+        }
+        .icons img {
+            width: 20px;
+            height: 20px;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .service-item {
+            background-color: white;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .service-item img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        .service-item h3 {
+            margin: 0;
+            font-size: 0.9em;
+        }
+        .service-item p {
+            margin: 5px 0 0;
+            font-size: 0.7em;
+            color: #666;
+        }
+        .search-bar {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            border-radius: 20px;
+            padding: 10px 15px;
+            margin-bottom: 20px;
+        }
+        .search-bar input {
+            border: none;
+            flex-grow: 1;
+            font-size: 0.9em;
+        }
+        .search-bar input:focus {
+            outline: none;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-between;
+        }
+        .footer img {
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <div class="header">
+            <div class="logo">
+                <img src="/api/placeholder/30/30" alt="Cat icon">
+                CAT CARE
+            </div>
+            <div class="icons">
+                <img src="/api/placeholder/20/20" alt="Notification">
+                <img src="/api/placeholder/20/20" alt="Profile">
+            </div>
+        </div>
+        <h2>Layanan kami</h2>
+        <div class="services">
+            <div class="service-item">
+                <img src="/api/placeholder/50/50" alt="Food">
+                <h3>Food</h3>
+                <p>Berbagai macam makanan untuk si kucing</p>
+            </div>
+            <div class="service-item">
+                <img src="/api/placeholder/50/50" alt="Grooming">
+                <h3>Grooming</h3>
+                <p>Perawatan untuk kucing agar tetap bersih</p>
+            </div>
+            <div class="service-item">
+                <img src="/api/placeholder/50/50" alt="Consultation">
+                <h3>Consultation</h3>
+                <p>Konsultasi kesehatan pada kucing dan hewan peliharaan</p>
+            </div>
+            <div class="service-item">
+                <img src="/api/placeholder/50/50" alt="Health">
+                <h3>Health</h3>
+                <p>Layanan kesehatan untuk hewan peliharaan anda</p>
+            </div>
+            <div class="service-item">
+                <img src="/api/placeholder/50/50" alt="Custom">
+                <h3>Custom</h3>
+                <p>Anda bisa memilih layanan sesuai kebutuhan kucing anda</p>
+            </div>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="What do you need for your cat?">
+        </div>
+        <div class="footer">
+            <img src="/api/placeholder/20/20" alt="Twitter">
+            <img src="/api/placeholder/20/20" alt="Snapchat">
+            <img src="/api/placeholder/20/20" alt="Facebook">
+            <img src="/api/placeholder/20/20" alt="Instagram">
+            <img src="/api/placeholder/20/20" alt="Settings">
+        </div>
+    </div>
+</body>
+</html>
